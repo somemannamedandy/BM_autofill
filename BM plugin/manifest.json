@@ -3,7 +3,7 @@
     "name": "Jumpstart_Autofill",
     "version": "1.0",
     "description": "Auto-fills the create user page.",
-    "homepage_url":"https://www.google.com",
+    "homepage_url":"https://github.com/somemannamedandy/BM_autofill",
     "icons": {
         "48": "icons/bleckmann48.png",
         "96": "icons/bleckmann96.png"
