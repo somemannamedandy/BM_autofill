@@ -1,0 +1,37 @@
+*{
+    font-family: -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    "Noto Sans",
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol",
+    "Noto Color Emoji";
+}
+body{
+    width:100%;
+    min-width:20rem;
+    margin-right: auto;
+    margin-left: auto;
+}
+img{
+    display:block;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+}
+#email{
+    width: 90%;
+    margin-left: auto; 
+    margin-right: auto;
+    border-radius:.25rem;
+    border: 1px solid #ced4da;
+    background: #fff;
+    font-size: 1rem;
+    color: #495057;
+    font-weight: 400;
+}

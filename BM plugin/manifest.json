@@ -1,0 +1,35 @@
+{
+    "manifest_version": 2,
+    "name": "Jumpstart_Autofill",
+    "version": "1.0",
+    "description": "Auto-fills the create user page.",
+    "homepage_url":"https://www.google.com",
+    "icons": {
+        "48": "icons/bleckmann48.png",
+        "96": "icons/bleckmann96.png"
+    },
+    "permissions":[
+        "activeTab",
+        "<all_urls>",
+        "clipboardRead",
+        "clipboardRead"
+    ],
+    "browser_action":{
+        "default_icon":"icons/bleckmann48.png",
+        "default_title": "BM Auto-fill",
+        "default_popup": "popup/index.html"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "*://logistics.bleckmann.com/*",
+                "*://logisticstest.bleckmann.com/*",
+                "*://Projects/html/Template/index.html"
+            ],
+            "js": [
+                "popup/js/jquery.js",
+                "popup/js/content-script.js"
+            ]
+        }
+    ]
+}
