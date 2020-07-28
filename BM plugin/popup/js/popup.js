@@ -42,6 +42,6 @@ $(document).ready(function () {
     }
 
     $('#autofill').click(function () { autoFill(); });
-
+    $('#mail').keypress(function(e){ if(e.which === 13){ e.preventDefault; autoFill();} });
 
 });
